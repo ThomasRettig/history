@@ -1,197 +1,198 @@
 body {
-	font-family:'Commissioner', 'Verdana Pro', sans-serif;
+	font-family: 'Commissioner', 'Verdana Pro', sans-serif;
 	font-weight: 400;
-	padding-left:80px;
-	padding-top:40px;
-	padding-right:80px;
-	padding-bottom:40px;
+	padding-left: 80px;
+	padding-top: 40px;
+	padding-right: 80px;
+	padding-bottom: 40px;
 	counter-reset: the-counter;
 }
 
 h1 {
-    letter-spacing: -0.35px;
-    font-size: 40px;
-    line-height: 115%;
-    font-variation-settings: "wght" 700;
+	letter-spacing: -0.35px;
+	font-size: 40px;
+	line-height: 115%;
+	font-variation-settings: "wght" 700;
 }
 
 p {
-    font-size: 20px;
-    max-width: 600px;
-    color: #6a6a6a;
-    font-variation-settings: "wght" 400;
+	font-size: 20px;
+	max-width: 600px;
+	color: #6a6a6a;
+	font-variation-settings: "wght" 400;
 }
 
 img {
-    padding-bottom: 30px;
-    padding-right: 40px;
-    user-select: none;
-    transition: 0.5s;
+	padding-bottom: 30px;
+	padding-right: 40px;
+	user-select: none;
+	transition: 0.5s;
 }
 
 img:hover {
-    filter: drop-shadow(3px 1px 12px lightgrey);
-    transform: perspective(1000px) rotateX(8deg) rotateY(0deg);
+	filter: drop-shadow(3px 1px 12px lightgrey);
+	transform: perspective(1000px) rotateX(8deg) rotateY(0deg);
 }
 
 hr {
-     border-width: 2px;
-     border-color: lightgrey;
-     border-style: dashed;
+	border-width: 2px;
+	border-color: lightgrey;
+	border-style: dashed;
 }
 
 a {
-     text-decoration: none;
-     color: cadetblue;
-     font-size: 20px;
-     transition: 0.2s;
+	text-decoration: none;
+	color: cadetblue;
+	font-size: 20px;
+	transition: 0.2s;
 }
 
 a:hover {
-     color: #538789;
-     font-variation-settings: "wght" 750;
+	color: #538789;
+	font-variation-settings: "wght" 750;
 }
 
 a:visited {
-     color: blueviolet;
+	color: blueviolet;
 }
+
 
 /*Custom HTML tags for semantic purposes*/
 
 task {
-    font-size: 50px;
-    font-family: 'Truculenta', 'Impact';
-    font-variation-settings: "wdth" 85;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    line-height: 50px;
+	font-size: 50px;
+	font-family: 'Truculenta', 'Impact';
+	font-variation-settings: "wdth" 85;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	line-height: 50px;
 }
 
 hero {
-     min-width: 200px;
-     display: block;
-     padding-bottom: 90px;
-     padding-right: 300px;
-     color: #ffffff;
-     font-variation-settings: "wght" 800;
-     padding-top: 100px;
-     padding-left: 100px;
-     font-size: 35px;
-     line-height: 120%;
-     margin-top: 10px;
-     margin-bottom: 20px;
+	min-width: 200px;
+	display: block;
+	padding-bottom: 90px;
+	padding-right: 300px;
+	color: #ffffff;
+	font-variation-settings: "wght" 800;
+	padding-top: 100px;
+	padding-left: 100px;
+	font-size: 35px;
+	line-height: 120%;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 hero::selection {
-     color: lightblue;
-     background: none;     
+	color: lightblue;
+	background: none;
 }
 
 panel {
-        transform: skew(0deg,-15deg);
-        display: inline-block;
-        background: white;
-        border: 2px solid #ccc;
-        color: #aaa;
-        font-family: 'Truculenta', 'Impact', sans-serif;
-        font-size: 25px;
-        transition: 0.2s;
-        padding: 3px;
-        text-transform: uppercase;
-        cursor: pointer;
-        font-variation-settings: "wdth" 75;
-        
+	transform: skew(0deg, -15deg);
+	display: inline-block;
+	background: white;
+	border: 2px solid #ccc;
+	color: #aaa;
+	font-family: 'Truculenta', 'Impact', sans-serif;
+	font-size: 25px;
+	transition: 0.2s;
+	padding: 3px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-variation-settings: "wdth" 75;
 }
 
 panel:hover {
-        font-variation-settings: "wdth" 110;
+	font-variation-settings: "wdth" 110;
 }
 
 chapter::before {
-     counter-increment: the-counter;
-     content: counter(the-counter);
-     position: absolute;
-     margin-left: -2em;
+	counter-increment: the-counter;
+	content: counter(the-counter);
+	position: absolute;
+	margin-left: -2em;
 }
 
 chapter {
-     letter-spacing: 2px;
-     text-transform: uppercase;
-     color: #9c9c9c;
-     font-variation-settings: "wght" 700;
-     font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #9c9c9c;
+	font-variation-settings: "wght" 700;
+	font-size: 20px;
 }
-
 
 bug {
-    display: block;
-    position: fixed;
-    bottom: 35px;
-    right: -20px;
-    white-space: nowrap;
-    user-select: none;
-    z-index: 2;
-    opacity: 0.9;
-    padding-right: 50px;
+	display: block;
+	position: fixed;
+	bottom: 35px;
+	right: -20px;
+	white-space: nowrap;
+	user-select: none;
+	z-index: 2;
+	opacity: 0.9;
+	padding-right: 50px;
 }
+
 
 /*Continue the regular tags*/
 
 button {
-     border: none;
-     padding: 10px;
-     font-family: 'Consolas', 'Andale Mono', monospace;
-     font-size: 15px;
-     color: grey;
-     background: #f1f1f1;
-     border-radius: 10px;
-     cursor: pointer;
-     transition-property: transform;
-     transition: 0.2s;
+	border: none;
+	padding: 10px;
+	font-family: 'Consolas', 'Andale Mono', monospace;
+	font-size: 15px;
+	color: grey;
+	background: #f1f1f1;
+	border-radius: 10px;
+	cursor: pointer;
+	transition-property: transform;
+	transition: 0.2s;
 }
 
 button:hover {
-     color: black;
-     background: #ebebeb;
-     transform: translateY(-6px);
+	color: black;
+	background: #ebebeb;
+	transform: translateY(-6px);
 }
 
 button:focus {
-     outline: none;
-     box-shadow: 0 0 5px #eaeaea;
-
+	outline: none;
+	box-shadow: 0 0 5px #eaeaea;
 }
 
 h2 {
-     font-size: 26px;
-     font-variation-settings: "wght" 400;
-     color: grey;
+	font-size: 26px;
+	font-variation-settings: "wght" 400;
+	color: grey;
 }
+
 
 /*Psuedo selectors*/
 
 ::selection {
-    background: #ebebeb;
-    color: black;
+	background: #ebebeb;
+	color: black;
 }
 
 ::-webkit-scrollbar {
-     width: 16px;
+	width: 16px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #eee;
+	background: #eee;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #d6d6d6;
+	background: #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #d6d6d6;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #bbb;
-  box-shadow: 0 0 10px #afafaf;
+	background: #bbb;
+	box-shadow: 0 0 10px #afafaf;
 }
+
 
 /*Edited in Notepad and Sublime Text*/
