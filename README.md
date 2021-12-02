@@ -1,4 +1,2 @@
-# history
-These are some basic website files for an old school project.
-
-Feel free to check out the code or open a pull request.
+# Note
+These are some _very_ basic plain HTML/CSS  files for a _very_ old school project written a _very_ long time ago. Anyway, feel free to check out the code.
